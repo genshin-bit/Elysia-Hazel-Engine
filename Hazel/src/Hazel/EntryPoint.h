@@ -14,6 +14,10 @@
 extern Hazel::Application* Hazel::CreateApplication(); // 由用户定义的CreateApplication()函数，返回一个 Hazel::Application 的实例
 
 int main(int argc,char** argv) {
+	Hazel::Log::Init(); // 初始化日志系统
+	HZ_CORE_WARN("Initialized Log!"); // 记录一条日志，使用核心日志记录器输出警告级别的消息 "日志完成初始化" 
+	HZ_INFO("Hello");
+
 	auto app = Hazel::CreateApplication(); // 创建应用程序实例
 	app->Run();
 	delete app;

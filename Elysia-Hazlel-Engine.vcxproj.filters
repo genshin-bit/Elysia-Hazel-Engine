@@ -15,21 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Hazel\Core.h">
+    <ClInclude Include="Hazel\src\Hazel\Core.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Hazel\Application.h">
+    <ClInclude Include="Hazel\src\Hazel\Application.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Hazel.h">
+    <ClInclude Include="Hazel\src\Hazel.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Hazel\EntryPoint.h">
+    <ClInclude Include="Hazel\src\Hazel\EntryPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Hazel\src\Hazel\Log.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Hazel\Application.cpp">
+    <ClCompile Include="Hazel\src\Hazel\Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Hazel\src\Hazel\Log.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
