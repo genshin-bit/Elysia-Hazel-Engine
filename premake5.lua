@@ -25,6 +25,9 @@ project "Elysia-Hazlel-Engine"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin/int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "hzpch.h"
+	pchsource "Hazel/src/hzpch.cpp"
+
 	-- 正确匹配：你的代码在Hazel/src文件夹下
 	files
 	{
